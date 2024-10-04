@@ -1,0 +1,45 @@
+body{
+
+    background-color: #d890cc;
+}
+
+
+
+header{
+    background: #05f5cd;
+    padding:0;
+
+    
+}
+header h1{
+    /*configuração da logo*/
+    mix-blend-mode: multiply;
+}
+
+
+nav{
+    position: absolute ;
+    top: 10px;
+    right: 20px;
+}
+nav li{
+    display: inline;
+    margin:0 0 0 10px;
+}
+nav a{
+    display: flex;/** para deixar o link do lado da logo*/
+    align-items: center;/*em que posição os links ficarão */
+    text-transform: center;
+    color: #000000;
+    font-weight: bold;
+    font-size:22px;
+    text-decoration: none;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+}
+.produtos li{
+    display: inline-block;
+}
